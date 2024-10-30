@@ -10,17 +10,17 @@
 
 :root{
     --color_text-primary: #3f3939;
-    --color_text-secundary: #101E2C;
+    --color_text-secundary: #000000;
     --color_text-tertiary: #000000;
     --main_color-primary: #3749b8;
-    --main_color-secundary: #ED6A5A;
-    --background-color: #F4F1BB;
+    --main_color-secundary: #52796f;
+    --background-color: #84a98c;
     --lowText_font_size: 16px;
     --text_size_title: 40px;
     --text_title_card: 24px;
     --text_title_cardv2: 20px;
     --text_paragraph: 16px;
-    --box_shadow-primary: 0px 6px 50px -20px rgb(0, 0, 0);
+    --box_shadow-primary: 0px 6px 50px -20px rgb(255, 255, 255);
 }
 
 header{
@@ -70,7 +70,7 @@ header{
 }
 
 .menu nav ul li a{
-    color: black; /*Variable var(--color_text-secundary);*/
+    color: rgb(0, 0, 0); /*Variable var(--color_text-secundary);*/
     font-size: 16px; /*Variable var(--lowText_font_size);*/
     position: relative;
 }
@@ -82,7 +82,7 @@ header{
 .btn_quote{
     display: block;
     padding: 8px 40px;
-    border: 2px solid #3F3F37; /*Variable var(--color_text-primary);*/
+    border: 2px solid #000000; /*Variable var(--color_text-primary);*/
     border-radius: 8px;
     font-weight: 500;
     color: #000000; /*Variable var(--color_text-tertiary);*/
@@ -91,7 +91,7 @@ header{
 }
 
 .btn_quote:hover{
-    color: white;
+    color: rgb(0, 0, 0);
     background: #309C13; /*Variable var(--color_text-primary);*/
 }
 
